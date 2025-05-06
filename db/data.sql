@@ -139,10 +139,6 @@ VALUES
 (9, 8), (9, 10), (9, 7), (9, 9), (9, 3),
 (10, 8), (10, 10), (10, 9), (10, 4), (10, 5), (10, 6), (10, 7);
 
-INSERT INTO user (fName, lName, username, password, email, role)
-VALUES 
-('herbert', 'brown', 'satchwerk', '5@TchbUg79', 'satchwerk@gmail.com', 'admin');
-
 -- updating team setting leaugue to 'NL'
 UPDATE team SET league = 'NL' WHERE team_id = 1;
 
