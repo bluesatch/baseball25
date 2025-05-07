@@ -2,8 +2,6 @@ import PlayerCard from "./PlayerCard"
 
 const Players =( { data } )=> {
 
-    console.log(data)
-
     const playerCards = data.map(player => {
         return <PlayerCard
             key={player.player_id}
