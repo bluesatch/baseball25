@@ -58,6 +58,10 @@ ALTER TABLE player
 
 ALTER TABLE player 
     MODIFY ended CHAR(4) NOT NULL DEFAULT 'PRES';
+
+-- Adding imgUrl to player
+ALTER TABLE player
+    ADD COLUMN imgUrl MEDIUMTEXT;
     
 CREATE TABLE player_to_pos (
     player_id MEDIUMINT UNSIGNED NOT NULL,
